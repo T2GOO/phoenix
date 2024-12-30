@@ -1,0 +1,25 @@
+# Core dependencies
+pandas==1.5.3
+numpy==1.24.0
+scikit-learn==1.2.0
+matplotlib==3.7.0
+
+# Optional dependencies
+seaborn==0.12.2  # Pour des visualisations avancées
+flask==2.2.3     # Si vous développez une API
+django==4.1.7    # Si vous utilisez Django
+requests==2.28.2 # Pour des requêtes HTTP
+
+# Machine Learning / Deep Learning
+tensorflow==2.11.0
+torch==1.13.1
+xgboost==1.7.4
+lightgbm==3.3.5
+catboost==1.1.1
+
+# Utils
+beautifulsoup4==4.11.2 # Pour le web scraping
+lxml==4.9.2            # Pour parser des fichiers XML/HTML
+
+# Version Pinning pour garantir la compatibilité
+python-dotenv==1.0.0 # Pour gérer les fichiers .env
